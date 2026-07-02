@@ -230,23 +230,8 @@ g++ -std=c++17 -O2 -I ../include test_bfs_solver.cpp ../src/puzzle_state.cpp ../
 g++ -std=c++17 -O2 -I ../include test_heuristic.cpp ../src/puzzle_state.cpp ../src/heuristic.cpp -o test_h.exe && .\test_h.exe
 g++ -std=c++17 -O2 -I ../include test_astar_solver.cpp ../src/puzzle_state.cpp ../src/solvability.cpp ../src/heuristic.cpp ../src/bfs_solver.cpp ../src/astar_solver.cpp -o test_astar.exe && .\test_astar.exe
 ```
-
----
-
-## Resume Bullets
-
-- Developed a 15-Tile Slide Puzzle Solver in C++ using Breadth-First Search (BFS) to efficiently solve shallow-depth puzzle configurations
-- Optimized the BFS solver using A\* search with the Manhattan distance heuristic to handle deeper scrambles with improved performance
-- Applied OOP concepts like virtual functions, inheritance, encapsulation, and operator overloading to improve code modularity and reusability
-- Implemented a method to determine puzzle solvability in advance by computing the inversion count of tiles using the merge sort algorithm in C++
-- Benchmarked the A\* solver to efficiently solve puzzle configurations scrambled up to 33 moves within 1 second and 40 moves within 5 seconds
-
----
-
 <div align="center">
 
 **Made with ❤️ by Ashutosh**
-
-*If you found this useful, give it a ⭐*
 
 
